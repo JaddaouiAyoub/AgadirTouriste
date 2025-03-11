@@ -22,9 +22,9 @@ export class GuideCardsComponent {
   ];
 
   hotels = [
-    { name: "Dunes d'Or Ocean ClubUne nouvelle fenêtre va s'ouvrir", rating: 4.5, image: "images/hotel1.jpg" },
-    { name: "Dinosaur Anza Surf House", rating: 4.0, image: "images/hotel2.jpg" },
-    { name: "Odyssee Park Hotel", rating: 4.8, image: "images/hotel3.jpg" }
+    { name: "Atlantic Hotel Agadir", rating: 4.5, image: "images/hotel1.jpg" , link:"https://www.atlantichotelagadir.com" },
+    { name: "Dinosaur Anza Surf House", rating: 4.0, image: "images/hotel2.jpg" , link:"https://www.atlantichotelagadir.com"},
+    { name: "Odyssee Park Hotel", rating: 4.8, image: "images/hotel3.jpg" , link:"https://www.intouriste.com" }
   ];
 
   restaurants = [

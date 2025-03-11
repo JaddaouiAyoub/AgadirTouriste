@@ -14,7 +14,7 @@
     <!-- Section Hôtels -->
     <div *ngIf="selectedCategory === 'hotels'" class="row row-cols-1 row-cols-md-3 g-4 mt-4">
         <div class="col" *ngFor="let hotel of hotels">
-            <div class="card">
+            <a [href]="hotel.link" target="_blank" class="card">
                 <img [src]="hotel.image" class="card-img-top" alt="Hotel Image">
                 <div class="card-body text-center">
                     <h5 class="card-title">{{ hotel.name }}</h5>
@@ -26,7 +26,7 @@
                     </div>
 
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 
