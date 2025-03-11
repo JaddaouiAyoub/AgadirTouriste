@@ -1,0 +1,11 @@
+<div class="container">
+<div class="hero">
+    <carousel [noPause]="noPause" [interval]="3000" (mouseover)="pauseCarousel()" (mouseleave)="resumeCarousel()">
+      <ng-container *ngFor="let img of images">
+        <slide>
+          <img [src]="img" class="hero-image img-fluid">
+        </slide>
+      </ng-container>
+    </carousel>
+  </div>
+  </div>

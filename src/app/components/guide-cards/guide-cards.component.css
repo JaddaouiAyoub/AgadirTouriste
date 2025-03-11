@@ -1,0 +1,38 @@
+.card {
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #e6007e; /* Rose au survol */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(230, 0, 126, 0.4);
+}
+
+.card:hover .icon,
+.card:hover p {
+    color: #fff !important; /* Texte et icône en blanc */
+}
+
+.icon {
+    font-size: 40px;
+    color: #e6007e; /* Couleur de base */
+    transition: color 0.3s ease-in-out;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.stars {
+    margin-top: 10px;
+}
